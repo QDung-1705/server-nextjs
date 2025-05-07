@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "es6",
     "module": "commonjs",
-    "outDir": "./dist",                 // ✅ thư mục chứa mã đã biên dịch
-    "rootDir": "./src",                 // ✅ thư mục chứa mã nguồn
+    "rootDir": "./src",
+    "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"],                   // ✅ biên dịch tất cả file trong src/
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
